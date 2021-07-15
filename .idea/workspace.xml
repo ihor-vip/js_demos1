@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/main1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/my1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/my2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -98,7 +95,8 @@
       <workItem from="1622379502131" duration="3770000" />
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
-      <workItem from="1626261416929" duration="7226000" />
+      <workItem from="1626261416929" duration="10739000" />
+      <workItem from="1626343268142" duration="14277000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626252424494</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="additional 2 and 3">
+      <created>1626268738588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1626268738588</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +223,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="done newWay plan" />
     <MESSAGE value="add task for incubator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task for incubator" />
+    <MESSAGE value="additional 2 and 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="additional 2 and 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
