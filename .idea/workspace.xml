@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/my2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/practise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/practise/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/newWay/lesson2/task" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -82,6 +84,16 @@
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\code" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="$PROJECT_DIR$/newWay/lesson4/task/main.js" working-dir="$PROJECT_DIR$/newWay/lesson4/task">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +108,10 @@
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
       <workItem from="1626261416929" duration="10739000" />
-      <workItem from="1626343268142" duration="14277000" />
+      <workItem from="1626343268142" duration="14499000" />
+      <workItem from="1626430680703" duration="15747000" />
+      <workItem from="1626458712183" duration="2685000" />
+      <workItem from="1626684836886" duration="16092000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -196,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626268738588</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="class work">
+      <created>1626358373543</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1626358373543</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +246,8 @@
     <MESSAGE value="done newWay plan" />
     <MESSAGE value="add task for incubator" />
     <MESSAGE value="additional 2 and 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional 2 and 3" />
+    <MESSAGE value="class work" />
+    <option name="LAST_COMMIT_MESSAGE" value="class work" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
