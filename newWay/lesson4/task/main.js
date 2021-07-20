@@ -1,118 +1,154 @@
 // - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 
-     function random()
+const array = [];
 
-     {
-        let number =  Math.floor(Math.random() * 100)
-         console.log(number);
+function random(l) {
+    for (let i = 0; i < l; i++) {
+        let number = Math.floor(Math.random() * 100)
+        array.push(Math.floor(number))
     }
+    return array;
+}
 
-    random();
-
+const random1 = random(10);
+console.log(array);
 
 
 // - Змінти попередню функцію, щоб діапазон можна було визначити через аргументи.
 
-    function random1(min,max)
+const arrNumber = [];
 
-    {
-        let number = Math.floor(Math.random() * (max - min) + min)
-        console.log(number);
+function randomNumber(min, max, l) {
+    for (let i = 0; i < l; i++) {
+        let rand = min - 0.5 + Math.random() * (max - min + 1)
+        arrNumber.push(Math.floor(rand))
     }
+    return arrNumber;
+}
 
-    random1(10, 100);
-
+const random3 = randomNumber(1, 100, 10);
+console.log(arrNumber);
 
 
 // - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
 
-    let randomArray = Array.from({length: 6}, () => Math.floor(Math.random() * 39));
+const arrNumber1 = [];
 
-        let sort = randomArray.sort( function (a,b){
-            return a - b;
-        });
+function randomNumber1(min, max, l) {
+    for (let i = 0; i < l; i++) {
+        let rand = min - 0.5 + Math.random() * (max - min + 1)
+        arrNumber1.push(Math.floor(rand))
+    }
+    return arrNumber1;
+}
 
-        console.log(sort);
+const random31 = randomNumber1(1, 100, 10);
+console.log(arrNumber1);
+
+let sort = arrNumber1.sort(function (a, b) {
+    return a - b;
+});
+
+console.log(sort);
 
 
 // - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. відфільтрувати  його за допомоги filter, за лишивши тільки парні числа
 
-    let randomArray1 = Array.from({length: 6}, () => Math.floor(Math.random() * 39));
+const arrNumber2 = [];
 
-        let filter = randomArray1.filter(function(value){
-            return value % 2 === 0;
-        });
+function randomNumber2(min, max, l) {
+    for (let i = 0; i < l; i++) {
+        let rand = min - 0.5 + Math.random() * (max - min + 1)
+        arrNumber2.push(Math.floor(rand))
+    }
+    return arrNumber2;
+}
 
-        console.log(filter);
+const random32 = randomNumber2(1, 100, 10);
+console.log(arrNumber2);
 
+let filter = arrNumber2.filter(function (value) {
+    return value % 2 === 0;
+});
 
+console.log(filter);
 
 
 // - створити масив рандомних цілих числових значень (або згенерувати, за допомоги попередньої функції) . за допомоги map та колбеку перетворити всі об'єкти в масиві на срінгові.
 
-     let randomArray2 = Array.from({length: 6}, () => Math.floor(Math.random() * 39));
+const arrNumber7 = [];
 
+function randomNumber7(min, max, l) {
+    for (let i = 0; i < l; i++) {
+        let rand = min - 0.5 + Math.random() * (max - min + 1)
+        arrNumber7.push(Math.floor(rand))
+    }
+    return arrNumber7;
+}
 
-    let map = randomArray2.map(function(item){
-        return item + '!'
-    });
+const random37 = randomNumber7(1, 100, 10);
+console.log(arrNumber7);
 
-    console.log(map);
+let map = arrNumber7.map(function (item) {
+    return item + '!'
+});
 
+console.log(map);
 
 
 // - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 
-    function User ( id, name, surname, email, phone) {
+class Users {
+    constructor(id, name, surname, email) {
         this.id = id;
         this.name = name;
         this.surname = surname;
         this.email = email;
-        this.phone = phone;
     }
+}
 
 
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
+    let userArray1 = [
 
-    let users = [
-        new User(),
-        new User(),
-        new User(),
-        new User(),
-        new User(),
-        new User(),
-        new User(),
-        new User(),
-        new User(),
-        new User(),
-    ];
+        new Users(21, 'anna', 'volkova', '123@gmail.com'),
+        new Users(132, 'john', 'volkova', '123@gmail.com'),
+        new Users(3241, 'michael', 'volkova', '123@gmail.com'),
+        new Users(451, 'peter', 'volkova', '123@gmail.com'),
+        new Users(31, 'stan', 'volkova', '123@gmail.com'),
+        new Users(13, 'sarah', 'volkova', '123@gmail.com'),
+        new Users(1342, 'kyle', 'volkova', '123@gmail.com'),
+        new Users(10, 'andrew', 'volkova', '123@gmail.com'),
+        new Users(143, 'steve', 'volkova', '123@gmail.com'),
+        new Users(51, 'kate', 'volkova', '123@gmail.com'),
 
-        console.log(users);
-
+    ]
 
 
 // Взяти масив цей  User[] та: Відфільтрувати , залишивши тільки об'єкти з парними id (filter) та Відсортувати його по id. по зростанню (sort)
 
-        let usersArray = [
-            new User(1),
-            new User(4),
-            new User(67),
-            new User(33),
-            new User(868),
-            new User(1222),
-            new User(21),
-            new User(245),
-            new User(24),
-            new User(567),
-        ];
+let userArray = [
 
-        let usersArraySort = usersArray.filter(function (even){
-            return even.id % 2 === 0
-        }).sort(function (value1,value2){
-            return value1.id - value2.id
-        })
+    new Users(21, 'anna', 'volkova', '123@gmail.com'),
+    new Users(132, 'john', 'volkova', '123@gmail.com'),
+    new Users(3241, 'michael', 'volkova', '123@gmail.com'),
+    new Users(451, 'peter', 'volkova', '123@gmail.com'),
+    new Users(31, 'stan', 'volkova', '123@gmail.com'),
+    new Users(13, 'sarah', 'volkova', '123@gmail.com'),
+    new Users(1342, 'kyle', 'volkova', '123@gmail.com'),
+    new Users(10, 'andrew', 'volkova', '123@gmail.com'),
+    new Users(143, 'steve', 'volkova', '123@gmail.com'),
+    new Users(51, 'kate', 'volkova', '123@gmail.com'),
 
-        console.log(usersArraySort);
+]
+
+let userArraySort = userArray.filter(function (even) {
+    return even.id % 2 === 0
+}).sort(function (value1, value2) {
+    return value1.id - value2.id
+})
+
+console.log(userArraySort);
 
 
 
