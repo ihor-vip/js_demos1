@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/main1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,8 @@
       <workItem from="1626458712183" duration="2685000" />
       <workItem from="1626684836886" duration="16954000" />
       <workItem from="1626772116604" duration="19126000" />
-      <workItem from="1626812235262" duration="1930000" />
+      <workItem from="1626812235262" duration="2515000" />
+      <workItem from="1626863533442" duration="12063000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -232,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626779628715</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="home work">
+      <created>1626814486659</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1626814486659</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +270,8 @@
     <MESSAGE value="additional 2 and 3" />
     <MESSAGE value="class work" />
     <MESSAGE value="class work update" />
-    <option name="LAST_COMMIT_MESSAGE" value="class work update" />
+    <MESSAGE value="home work" />
+    <option name="LAST_COMMIT_MESSAGE" value="home work" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
