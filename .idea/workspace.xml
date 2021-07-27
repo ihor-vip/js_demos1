@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson6/code/myindex1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson6/code/myindex2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <workItem from="1627030359218" duration="2892000" />
       <workItem from="1627305878467" duration="305000" />
       <workItem from="1627385320082" duration="555000" />
-      <workItem from="1627385993880" duration="8489000" />
+      <workItem from="1627385993880" duration="8875000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -265,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627395239899</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="home work">
+      <created>1627397275576</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1627397275576</updated>
+    </task>
+    <task id="LOCAL-00023" summary="class work">
+      <created>1627397449166</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1627397449166</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,9 +307,9 @@
     <MESSAGE value="add task for incubator" />
     <MESSAGE value="additional 2 and 3" />
     <MESSAGE value="class work update" />
-    <MESSAGE value="class work" />
     <MESSAGE value="home work" />
-    <option name="LAST_COMMIT_MESSAGE" value="home work" />
+    <MESSAGE value="class work" />
+    <option name="LAST_COMMIT_MESSAGE" value="class work" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
