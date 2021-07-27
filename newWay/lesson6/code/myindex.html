@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="type"></div>
+<script>
+
+    // -- 1 -- Отримати відповідь з цього ресурсу відповідь, та вивести в документ як в прикладі на занятті
+    //         https://jsonplaceholder.typicode.com/posts
+
+    fetch ( 'https://jsonplaceholder.typicode.com/posts' )
+        . then ( value  =>  value.json())
+        . then ( posts  =>  {
+
+            for  ( const  post  of  posts )  {
+                let listPost = document.createElement ('div') ;
+
+                let title = document.createElement ('h2') ;
+                title.innerText  = ` ID ${post.id} of USER ID ${post.userId} ` ;
+
+                listPost.append(title) ;
+
+                let info = document.createElement ( 'p' ) ;
+                info.innerText  = `TITLE --  ${post.title}        : BODY --  ${post.body} `  ;
+
+                listPost.append(info) ;
+
+                let type = document.getElementById ('type') ;
+                type.append(listPost) ;
+
+            }
+
+        } ) ;
+
+
+
+    // -- 2 --Отримати відповідь з цього ресурсу відповідь, та вивести в документ як в прикладі на занятті
+    //        https://jsonplaceholder.typicode.com/comments
+
+
+    fetch ( ' https://jsonplaceholder.typicode.com/comments' )
+        . then ( value  =>  value.json())
+        . then ( comments  =>  {
+
+            for  ( const  comment  of  comments )  {
+                let commentList = document.createElement ('div') ;
+
+                let title = document.createElement ('h2') ;
+                title.innerText  = `ID ${comment.id} of POST ID ${comment.postId} `  ;
+                commentList.append(title) ;
+
+                let info = document.createElement ( 'p' ) ;
+                info.innerText  = `NAME-- ${comment.name}    E-MAIL -- ${comment.email}  BODY -- ${comment.body} ` ;
+                commentList.append(info) ;
+
+                let type = document.getElementById ('type') ;
+                type.append(commentList) ;
+
+            }
+
+        } ) ;
+
+
+</script>
+</body>
+</html>
