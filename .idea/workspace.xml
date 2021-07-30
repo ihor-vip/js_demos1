@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson7/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson7/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson7/main1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson0/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +120,8 @@
       <workItem from="1627385993880" duration="8990000" />
       <workItem from="1627469414140" duration="7000" />
       <workItem from="1627550624234" duration="11774000" />
+      <workItem from="1627635554015" duration="11479000" />
+      <workItem from="1627655440719" duration="1826000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
