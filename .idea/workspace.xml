@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson7/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson7/main1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/JSProject/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/JSProject/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/JSProject/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/JSProject/user-d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/PROJECT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/PROJECT/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -121,7 +125,8 @@
       <workItem from="1627469414140" duration="7000" />
       <workItem from="1627550624234" duration="11774000" />
       <workItem from="1627635554015" duration="11479000" />
-      <workItem from="1627655440719" duration="1826000" />
+      <workItem from="1627655440719" duration="2150000" />
+      <workItem from="1627895409527" duration="17243000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -291,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627397583166</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="additional 6">
+      <created>1627657572168</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1627657572168</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +334,8 @@
     <MESSAGE value="class work update" />
     <MESSAGE value="home work" />
     <MESSAGE value="class work" />
-    <option name="LAST_COMMIT_MESSAGE" value="class work" />
+    <MESSAGE value="additional 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="additional 6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
