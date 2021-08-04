@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    text-align: center;
+    background: silver;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.style{
+    width: 45%;
+    margin:2%;
+    border: 2px solid black;
+    background: cornflowerblue;
+    border-radius: 10px;
+}
+
+.button{
+    margin: 10px;
+    background: silver;
+    padding: 2px;
+}
